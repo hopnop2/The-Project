@@ -3,7 +3,7 @@ import { View, FlatList, StyleSheet } from 'react-native';
 import { FAB, Text } from 'react-native-paper';
 import { useSelector } from 'react-redux';
 import { StackNavigationProp } from '@react-navigation/stack';
-import NoteItem from '../component/NoteItem';
+import NoteItem from '../components/NoteItem';
 import { RootState } from '../constants/redux-store';
 import { RootStackParamList } from '../types';
 
